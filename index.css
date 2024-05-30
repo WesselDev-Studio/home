@@ -1,13 +1,14 @@
 #Main {
     text-align: center;
-    background-color: gray;
-    color: rgb(182, 182, 182);
+    background-color: rgb(61, 61, 61);
+    color: rgb(255, 255, 255);
     padding: 10px;
     box-sizing: border-box;
 }
 
 #Copy {
     text-align: left;
+    color: rgb(148, 148, 148)
 }
 
 #Welcome {
@@ -18,8 +19,7 @@
 #Cuber_2,
 #Cuber_2_Remake,
 #Cuber_3,
-#SurvivalCraft,
-#Reactor_Resurgence {
+#SurvivalCraft {
     margin: 20px 0;
     padding: 15px;
     background-color: rgb(73, 73, 73);
@@ -28,6 +28,7 @@
 button {
     display: block;
     margin-top: 10px;
+    width: 100px;
     padding: 10px;
 }
 
@@ -36,8 +37,7 @@ button {
     #Cuber_2,
     #Cuber_2_Remake,
     #Cuber_3,
-    #SurvivalCraft,
-    #Reactor_Resurgence {
+    #SurvivalCraft {
         padding: 10px;
     }
 

@@ -11,12 +11,6 @@
     color: rgb(148, 148, 148)
 }
 
-img {
-    height: 50%;
-    width: 50%;
-    object-fit: contain;
-}
-
 #ATG,
 #WTPTG {
     margin: 20px 0;
@@ -43,5 +37,10 @@ button {
     #ATG,
     #WTPTG {
         padding: 10px;
+    }
+    img {
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
     }
 }

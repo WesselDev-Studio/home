@@ -11,17 +11,12 @@
     color: rgb(148, 148, 148)
 }
 
-img {
-    height: 35%;
-    width: 35%;
-    object-fit: contain;
-}
-
 #Cuber_1,
 #Cuber_2,
 #Cuber_2_Remake,
 #Cuber_3,
-#SurvivalCraft {
+#SurvivalCraft,
+#HOW {
     margin: 20px 0;
     padding: 15px;
     background-color: rgb(73, 73, 73);
@@ -47,7 +42,13 @@ button {
     #Cuber_2,
     #Cuber_2_Remake,
     #Cuber_3,
-    #SurvivalCraft {
+    #SurvivalCraft,
+    #HOW {
         padding: 10px;
+    }
+    img {
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
     }
 }

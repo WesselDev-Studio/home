@@ -1,0 +1,19 @@
+#Main {
+    text-align: center;
+    padding-top: 6%;
+}
+
+button {
+    color: rgb(255, 255, 255);
+    background-color: rgb(155, 155, 155);
+    display: block;
+    margin-top: 10px;
+    width: 150px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button:hover {
+    background-color: rgb(97, 97, 97);
+}

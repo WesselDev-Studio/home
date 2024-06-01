@@ -21,3 +21,7 @@ function C2RB() {
 function DSCB() {
     window.location='https://wesseldev-inc.itch.io/2d-survivalcraft';
 };
+
+function THB() {
+    window.location='https://wesseldev-inc.itch.io/the-healer';
+};

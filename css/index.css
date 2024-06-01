@@ -11,12 +11,22 @@
     color: rgb(148, 148, 148)
 }
 
+a {
+    color: rgb(182, 182, 182);
+}
+
+a:hover {
+    color: rgb(255, 255, 255);
+}
+
 #Cuber_1,
 #Cuber_2,
 #Cuber_2_Remake,
 #Cuber_3,
 #SurvivalCraft,
-#HOW {
+#HOW,
+#CU,
+#TH {
     margin: 20px 0;
     padding: 15px;
     background-color: rgb(73, 73, 73);
@@ -43,7 +53,9 @@ button {
     #Cuber_2_Remake,
     #Cuber_3,
     #SurvivalCraft,
-    #HOW {
+    #HOW,
+    #CU,
+    #TH {
         padding: 10px;
     }
     img {

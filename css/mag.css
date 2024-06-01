@@ -11,8 +11,21 @@
     color: rgb(148, 148, 148)
 }
 
+a {
+    color: rgb(182, 182, 182);
+}
+
+a:hover {
+    color: rgb(255, 255, 255);
+}
+
 #ATG,
-#WTPTG {
+#WTPTG,
+#GU,
+#Y2021,
+#Y2022,
+#Y2023,
+#Y2024 {
     margin: 20px 0;
     padding: 15px;
     background-color: rgb(73, 73, 73);
@@ -35,7 +48,12 @@ button {
 
 @media screen and (max-width: 600px) {
     #ATG,
-    #WTPTG {
+    #WTPTG
+    #GU,
+    #Y2021,
+    #Y2022,
+    #Y2023,
+    #Y2024 {
         padding: 10px;
     }
     img {

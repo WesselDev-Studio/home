@@ -18,6 +18,10 @@ function DSCB() {
     window.location='./html/survivalcraft.html';
 };
 
+function THB() {
+    window.location='./html/thehealer.html';
+};
+
 function HOWB() {
-    window.location='./html/under-con.html'
+    window.location='./html/history.html'
 }

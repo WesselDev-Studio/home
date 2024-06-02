@@ -26,7 +26,8 @@ a:hover {
 #SurvivalCraft,
 #HOW,
 #CU,
-#TH {
+#TH,
+#PO {
     margin: 20px 0;
     padding: 15px;
     background-color: rgb(73, 73, 73);
@@ -55,7 +56,8 @@ button {
     #SurvivalCraft,
     #HOW,
     #CU,
-    #TH {
+    #TH,
+    #PO {
         padding: 10px;
     }
     img {

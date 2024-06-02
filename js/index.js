@@ -2,6 +2,10 @@ function CB() {
     window.location='./html/cuber.html';
 };
 
+function PON() {
+    window.location='./html/dates.html'
+}
+
 function C2B() {
     window.location='./html/cuber-2.html';
 };

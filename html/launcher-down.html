@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Launcher Download</title>
+    <link rel="stylesheet" href="../css/launcher-down.css">
+    <link rel="shortcut icon" href="../pictures/Logo.ico" type="image/x-icon">
+    <script src="../js/launcher-down.js"></script>
+</head>
+    <body id="Main">
+        <div>
+            <h1>WesselDev, Inc. Games Launcher</h1>
+            <h6>Preview</h6>
+            <button  onclick="HB()">Home</button>
+        </div>
+        <div id="info">
+            <button id="button-download" type="button">Download</button>
+            <script>
+                const btn = document.getElementById("button-download");
+                btn.onclick = () => {
+                document
+                    .getElementById("xsolla-installer-renamer")
+                    .contentWindow.postMessage(
+                    {
+                        type: "download",
+                        href: "https://installer.launcher.xsolla.com/xlauncher-builds/xsolla-launcher-update/9463/bin/web_installer.exe",
+                        name: "WesselDev, Inc. Games.exe",
+                    },
+                    "https://installer.launcher.xsolla.com"
+                    );
+                };
+            </script>
+            <script>
+                const frame = document.createElement("IFRAME");
+                frame.id = "xsolla-installer-renamer";
+                frame.src = `https://installer.launcher.xsolla.com/launcher-installer-renamer-prod/v1/renamer.html?cache=${Date.now()}`;
+                frame.style = "display: none";
+                document.body.append(frame);
+              </script>
+        </div>
+        <h5 id="Copy">2023-2024 Copyright (C) WesselDev, Inc. - All Rights Reserved</h5>
+    </body>
+</html>

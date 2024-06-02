@@ -1,0 +1,44 @@
+#Main {
+    text-align: center;
+    background-color: rgb(61, 61, 61);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+button:hover {
+    background-color: rgb(97, 97, 97);
+}
+
+button {
+    color: rgb(255, 255, 255);
+    background-color: rgb(155, 155, 155);
+    display: block;
+    margin-top: 10px;
+    width: 150px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#Copy {
+    text-align: left;
+    color: rgb(148, 148, 148)
+}
+
+#info {
+    margin: 20px 0;
+    padding: 15px;
+    background-color: rgb(73, 73, 73);
+}
+
+@media screen and (max-width: 600px) {
+    #info {
+        padding: 10px;
+    }
+    img {
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
+    }
+}

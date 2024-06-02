@@ -6,15 +6,26 @@
     <title>Launcher Download</title>
     <link rel="stylesheet" href="../css/launcher-down.css">
     <link rel="shortcut icon" href="../pictures/Logo.ico" type="image/x-icon">
-    <script src="../js/launcher-down.js"></script>
+    <script src="../js/launcher-down.js">
+        
+    </script>
 </head>
     <body id="Main">
         <div>
             <h1>WesselDev, Inc. Games Launcher</h1>
-            <h6>Preview</h6>
-            <button  onclick="HB()">Home</button>
+            <button id="HB" type="button" onclick="HB()">Home</button>
         </div>
         <div id="info">
+            <h2>About The Game Launcher</h2>
+            <p>
+                The game launcher is the only way to play WesselDev, Inc. games.
+            </p>
+            <p>
+                The game launcher supports game purchase, free game keys, game downloads/install and game updates.
+            </p>
+            <p>
+                The game launcher is ONLY for Windows.
+            </p>
             <button id="button-download" type="button">Download</button>
             <script>
                 const btn = document.getElementById("button-download");
@@ -37,7 +48,7 @@
                 frame.src = `https://installer.launcher.xsolla.com/launcher-installer-renamer-prod/v1/renamer.html?cache=${Date.now()}`;
                 frame.style = "display: none";
                 document.body.append(frame);
-              </script>
+            </script>
         </div>
         <h5 id="Copy">2023-2024 Copyright (C) WesselDev, Inc. - All Rights Reserved</h5>
     </body>

@@ -6,8 +6,15 @@
     box-sizing: border-box;
 }
 
-#closer {
-    margin-top: -20px;
+#Copy {
+    text-align: left;
+    color: rgb(148, 148, 148)
+}
+
+#info {
+    margin: 20px 0;
+    padding: 15px;
+    background-color: rgb(73, 73, 73);
 }
 
 button:hover {
@@ -25,25 +32,8 @@ button {
     margin-right: auto;
 }
 
-#Copy {
-    text-align: left;
-    color: rgb(148, 148, 148)
-}
-
-#PO,
-#info,
-#TL {
-    margin: 20px 0;
-    padding: 15px;
-    background-color: rgb(73, 73, 73);
-}
-
-
-
 @media screen and (max-width: 600px) {
-    #PO,
-    #info,
-    #TL {
+    #info {
         padding: 10px;
     }
     img {

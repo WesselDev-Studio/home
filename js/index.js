@@ -1,3 +1,5 @@
+window.location.replace('../index.html')
+
 function CB() {
     window.location='./html/cuber.html';
 };

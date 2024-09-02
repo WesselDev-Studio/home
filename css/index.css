@@ -27,7 +27,8 @@ a:hover {
 #HOW,
 #CU,
 #TH,
-#PO {
+#PO,
+#NB {
     margin: 20px 0;
     padding: 15px;
     background-color: rgb(73, 73, 73);
@@ -57,7 +58,8 @@ button {
     #HOW,
     #CU,
     #TH,
-    #PO {
+    #PO,
+    #NB {
         padding: 10px;
     }
     img {

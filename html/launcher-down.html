@@ -18,30 +18,48 @@
         <div id="info">
             <h2>About The Game Launcher</h2>
             <p>
-                The game launcher is the only way to play WesselDev Studio games.
+                <s>The game launcher is the only way to play WesselDev Studio games.</s>
             </p>
             <p>
                 The game launcher supports game purchase, free game keys, game downloads/install and game updates.
             </p>
             <p>
-                The game launcher is ONLY for Windows.
+                The game launcher is for Windows and MacOS.
             </p>
-            <button id="button-download" type="button">Download</button>
+            <button id="button-download-windows" type="button">Download For Windows</button>
             <script>
-                const btn = document.getElementById("button-download");
+                const btn = document.getElementById("button-download-windows");
                 btn.onclick = () => {
                 document
                     .getElementById("xsolla-installer-renamer")
                     .contentWindow.postMessage(
                     {
                         type: "download",
-                        href: "https://installer.launcher.xsolla.com/xlauncher-builds/xsolla-launcher-update/9463/bin/web_installer.exe",
-                        name: "WesselDev, Inc. Games.exe",
+                        href: "",
+                        name: "WesselDev Studio Games.exe",
                     },
                     "https://installer.launcher.xsolla.com"
                     );
                 };
             </script>
+
+            <button id="button-download-macOS" type="button">Download For MacOS</button>
+            <script>
+                const btn = document.getElementById("button-download-macOS");
+                btn.onclick = () => {
+                document
+                    .getElementById("xsolla-installer-renamer")
+                    .contentWindow.postMessage(
+                    {
+                        type: "download",
+                        href: "",
+                        name: "WesselDev Studio Games.pkg",
+                    },
+                    "https://installer.launcher.xsolla.com"
+                    );
+                };
+            </script>
+
             <script>
                 const frame = document.createElement("IFRAME");
                 frame.id = "xsolla-installer-renamer";

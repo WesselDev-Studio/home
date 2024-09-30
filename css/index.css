@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 #Copy {
     text-align: left;
     color: rgb(148, 148, 148)
@@ -19,11 +23,7 @@ a:hover {
     color: rgb(255, 255, 255);
 }
 
-#Cuber_1,
-#Cuber_2,
-#Cuber_2_Remake,
-#Cuber_3,
-#SurvivalCraft,
+.game-section,
 #HOW,
 #CU,
 #TH,
@@ -36,6 +36,11 @@ a:hover {
 
 button:hover {
     background-color: rgb(97, 97, 97);
+    transition: background-color 0.3s ease;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
 }
 
 button {
@@ -50,11 +55,7 @@ button {
 }
 
 @media screen and (max-width: 600px) {
-    #Cuber_1,
-    #Cuber_2,
-    #Cuber_2_Remake,
-    #Cuber_3,
-    #SurvivalCraft,
+    .game-section,
     #HOW,
     #CU,
     #TH,
@@ -67,4 +68,8 @@ button {
         width: 100%;
         object-fit: contain;
     }
+}
+
+h2, h3, p {
+    font-size: 1.2rem; /* Example value */
 }

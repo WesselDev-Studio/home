@@ -1,95 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="WesselDev Studio Official Website - Check out games like Cuber, SurvivalCraft, and more.">
+    <meta name="description"
+        content="WesselDev Studio Official Website - Check out games like Cuber, SurvivalCraft, and more.">
     <meta name="keywords" content="WesselDev Studio, Cuber, SurvivalCraft, game development, indie games">
     <meta property="og:title" content="WesselDev Studio - Indie Games and More!">
-    <meta property="og:description" content="Check out games like Cuber and SurvivalCraft, developed by WesselDev Studio.">
+    <meta property="og:description"
+        content="Check out games like Cuber and SurvivalCraft, developed by WesselDev Studio.">
     <meta property="og:image" content="./img/Logo.ico">
     <meta property="og:url" content="https://wesseldev-studio.github.io">
     <meta property="og:type" content="website">
     <title>WesselDev Studio</title>
     <link rel="stylesheet" href="./css/index.css">
-    <script src="./js/index.js" defer></script>
     <link rel="apple-touch-icon" sizes="180x180" href="./img/Logo.ico">
     <link rel="icon" type="image/png" sizes="32x32" href="./img/Logo.ico">
     <link rel="icon" type="image/png" sizes="16x16" href="./img/Logo.ico">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="preload" href="./img/Logo.ico" as="image">
 </head>
-    <body id="Main">
-        <h1 id="Welcome">Welcome To The WesselDev Studio Website</h1>
-        <section id="NB">
+
+<body>
+    <main class="main">
+        <h1>Welcome to WesselDev Studio - Indie Game Development</h1>
+        <h2>Explore Our Games: Cuber, SurvivalCraft, and More!</h2>
+        <section class="game-section">
             <h2>NOTICE</h2>
             <p>
-                WesselDev Studio game launcher is not yet available to the public or to the game testers. Because WesselDev, Inc. has been renamed to WesselDev Studio, we are waiting
+                WesselDev Studio game launcher is not yet available to the public or to the game testers. Because
+                WesselDev, Inc. has been renamed to WesselDev Studio, we are waiting
                 for a new Email address.
             </p>
         </section>
-        <main>
-            <section id="PO">
-                <h2>Pre-Order NOW!</h2>
-                <button id="PON" type="button" onclick="PON()" aria-label="Learn more about Pre-Ordering">Learn More</button>
-            </section>
-            <section id="Cuber_1" class="game-section">
-                <h3>Cuber</h3>
-                <p>
-                    You have to beat the game with platforms
-                </p>
-                <img src="./img/covers/Cover Cuber 1.png" loading="lazy">
-                <button id="CB" type="button" onclick="CB()" aria-label="Learn more about Cuber 1">Learn More</button>
-            </section>
-            <section id="Cuber_2" class="game-section">
-                <h3>Cuber 2: Ice Age</h3>
-                <p>
-                    You have to beat the game with platforms. Cuber 2: Ice Age is the sequel of Cuber.
-                </p>
-                <img id="CC2" src="./img/covers/Cover Cuber 2.png" loading="lazy">
-                <button id="C2B" type="button" onclick="C2B()" aria-label="Learn more about Cuber 2">Learn More</button>
-            </section>
-            <section id="Cuber_2_Remake" class="game-section">
-                <h3>Cuber 2: Ice Age Remake</h3>
-                <p>
-                    Place Holder Text
-                </p>
-                <img src="./img/covers/Cover Cuber 2 Remake.png" loading="lazy">
-                <button id="C2RB" type="button" onclick="C2RB()" aria-label="Learn more about Cuber 2 Remake">Learn More</button>
-            </section>
-            <section id="SurvivalCraft" class="game-section">
-                <h3>2D-SurvivalCraft</h3>
-                <p>
-                    Place Holder Text
-                </p>
-                <img src="./img/covers/Cover SurvivalCraft.png" loading="lazy">
-                <button id="2DSCB" type="button" onclick="DSCB()" aria-label="Learn more about 2D-SurvivalCraft">Learn More</button>
-            </section>
-            <section id="TH" class="game-section">
-                <h3>The Healer</h3>
-                <p>
-                    Place Holder Text
-                </p>
-                <img src="./img/covers/Cover The Healer.png" loading="lazy">
-                <button id="THB" type="button" onclick="THB()" aria-label="Learn more about The Healer">Learn More</button>
-            </section>
-            <section id="HOW">
-                <h3>The History Of WesselDev Studio</h3>
-                <p>
-                    2021-2024
-                </p>
-                <img src="./img/Logo.ico" loading="lazy">
-                <button id="HOWB" type="button" onclick="HOWB()" aria-label="Learn more about The History Of WesselDev Studio">Learn More</button>
-            </section>
-            <section id="CU">
-                <h3>Contact Us</h3>
-                <p>Email: <a href="mailto:wesseldevstudio@gmail.com"><i class="fas fa-envelope"></i> wesseldevstudio@gmail.com</a></p>
-                <p>Phone Number: <a href="tel:+27636373035"><i class="fas fa-phone"></i> +27636373035</a></p>
-            </section>
-        </main>
+        <section class="game-section">
+            <h3>Cuber</h3>
+            <p>
+                You have to beat the game with platforms
+            </p>
+            <img src="./img/covers/cuber-game-cover.png" loading="lazy">
+            <a href="./games/cuber.html" class="button">Learn More</a>
+        </section>
+        <section id="Cuber_2" class="game-section">
+            <h3>Cuber 2: Ice Age</h3>
+            <p>
+                You have to beat the game with platforms. Cuber 2: Ice Age is the sequel of Cuber.
+            </p>
+            <img src="./img/covers/cuber-2-game-cover.png" loading="lazy">
+            <a href="./games/cuber-2.html" class="button">Learn More</a>
+        </section>
+        <section id="Cuber_2_Remake" class="game-section">
+            <h3>Cuber 2: Ice Age Remake</h3>
+            <p>
+                You have to beat the game with platforms. Cuber 2: Ice Age Remake is the remake of Cuber 2: Ice Age.
+            </p>
+            <img src="./img/covers/cuber-2-remake-game-cover.png" loading="lazy">
+            <a href="./games/cuber-2r.html" class="button">Learn More</a>
+        </section>
+        <section id="SurvivalCraft" class="game-section">
+            <h3>2D-SurvivalCraft</h3>
+            <p>
+                A quick game to test myself
+            </p>
+            <img src="./img/covers/survivalcraft-game-cover.png" loading="lazy">
+            <a href="./games/survivalcraft.html" class="button">Learn More</a>
+        </section>
+        <section id="TH" class="game-section">
+            <h3>The Healer</h3>
+            <p>
+                Go on top of the cubes and press E on keyboard
+            </p>
+            <img src="./img/covers/the-healer-game-cover.png" loading="lazy">
+            <a href="./games/thehealer.html" class="button">Learn More</a>
+        </section>
+        <section class="game-section">
+            <h3>The History Of WesselDev Studio</h3>
+            <p>
+                2021-2024
+            </p>
+            <img src="./img/Logo.ico" loading="lazy">
+            <a href="./html/history.html" class="button">Learn More</a>
+        </section>
+        <section class="game-section">
+            <h3>Contact Us</h3>
+            <p>Email: <a href="mailto:wesseldevstudio@gmail.com"><i class="fas fa-envelope"></i>
+                    wesseldevstudio@gmail.com</a></p>
+            <p>Phone Number: <a href="tel:+27636373035"><i class="fas fa-phone"></i> +27636373035</a></p>
+        </section>
+    </main>
+    <footer class="copyright">
+        <p><small>2023-2024 &copy; WesselDev Studio - All Rights Reserved</small></p>
+    </footer>
+</body>
 
-        <footer>
-            <p id="Copy"><small>2023-2024 &copy; WesselDev Studio - All Rights Reserved</small></p>
-        </footer>
-    </body>
 </html>
